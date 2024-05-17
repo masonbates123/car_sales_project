@@ -9,6 +9,7 @@
 - [Data Analysis](#data-analysis)
 - [Results](#results)
 - [Limitations](#limitations)
+- [Visualization](#visualization)
 
 ### Project Overview
 
@@ -20,9 +21,9 @@ The dataset used for this project is the "car_sales.csv" file in Kaggle which co
 [Download here](https://www.kaggle.com/datasets/syedanwarafridi/vehicle-sales-data)
 ### Tools
 
-- R - Data Visualization
 - Excel
 - SQL Server - Data Analysis
+- Tableau - Data Visualization
 
 ### Questions
 
@@ -63,9 +64,6 @@ select year,avg(sellingprice) as AVG
                      group by year;
 ```
 
-![image](https://github.com/masonbates123/projects/assets/169870845/77fe537c-9d8e-47ad-8217-40470be2b68c)
-
-
 - Question 4
 
 ```sql
@@ -103,6 +101,10 @@ select transmission, avg(sellingprice) as AVG
 ### Limitations
 
 The last year in the dataset is 2015, so current trends may be slightly different than the findings in this project.
+
+### Visualization
+
+A Tableau visualization can be seen [here](https://public.tableau.com/app/profile/mason.bates/viz/CarSales_17159278687760/Dashboard1)
 
 
  
