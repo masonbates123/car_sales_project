@@ -1,4 +1,4 @@
-# Car Sales Analysis
+# Car Sales Project
 
 ### Table of Contents
 
